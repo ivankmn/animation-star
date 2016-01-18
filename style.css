@@ -1,0 +1,16 @@
+body {
+  background: #3498db;
+}
+
+.fave {
+  width: 64px;
+  height: 50px;
+  margin: 50px auto;
+  background: url(img/star-sprite.png) no-repeat;
+  background-position: 0 0;
+}
+
+.fave:hover {
+  background-position: -3519px 0;
+  transition: background 1s steps(55);
+}
